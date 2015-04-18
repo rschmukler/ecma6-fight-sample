@@ -1,5 +1,6 @@
-import Person from './lib/person';
+import { Person, MaxHealth } from './lib/person';
 
-['Bob', 'Steve', 'Ryan', 'Russell'].forEach( (x) =>
-    (new Person(x)).printStatus()
-);
+console.log(MaxHealth);
+['Bob', 'Steve', 'Ryan', 'Russell'].forEach( (x) => {
+    (new Person(x)).printStatus();
+});
